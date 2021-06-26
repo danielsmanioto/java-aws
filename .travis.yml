@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - openjdk16
+script: ./gradlew build
+notifications:
+  email: daniel.smanioto@gmail.com
