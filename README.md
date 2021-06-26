@@ -29,3 +29,5 @@ Docker Hub Account :  https://hub.docker.com/  <br>
 
 https://hub.docker.com/repository/docker/danielsmanioto/java-aws <br>
 
+`docker build .`
+
