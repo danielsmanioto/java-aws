@@ -1,7 +1,5 @@
 FROM openjdk:16
 VOLUME /tmp
-ARG DEPENDENCY=target/dependency
-COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
-COPY ${DEPENDENCY}/META-INF /app/META-INF
-COPY ${DEPENDENCY}/BOOT-INF/classes /app
-ENTRYPOINT ["java","-cp","app:app/lib/*","com.danielsmanioto.javaaws.JavaAwsApplication"]
+WORKDIR /usr/app
+COPY ./build/libs/java-aws-0.0.1-SNAPSHOT.jar /usr/app/java-aws.jar
+ENTRYPOINT ["java","-jar","/usr/app/java-aws.jar"]

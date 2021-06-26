@@ -25,9 +25,19 @@ Docker Hub Account :  https://hub.docker.com/  <br>
 
 `curl localhost:8080/users/hello`
 
+# Run local
+
+ ./gradlew bootRun
+ 
 # Dockers images 
 
 https://hub.docker.com/repository/docker/danielsmanioto/java-aws <br>
 
-`docker build .`
+# Deploy on Docker container 
+
+`./gradlew build`
+
+`docker build --tag=danielsmanioto/java-aws .`
+
+`docker run -d -p 80:8080 -t danielsmanioto/java-aws `
 
