@@ -46,3 +46,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html <br>
 https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html <br>
 
 
+# CI / CD / Travos CI
+
+file .travis.ci
+
