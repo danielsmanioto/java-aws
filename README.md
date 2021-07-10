@@ -17,7 +17,7 @@ SonarLint. <br>
 
 AWS Account :   <br>
 Docker Hub Account :  https://hub.docker.com/  <br>
-Travis CI: https://travis-ci.org/ <br>
+Travis CI: https://www.travis-ci.com/ <br>
 
 # Executing 
 
@@ -41,3 +41,11 @@ https://hub.docker.com/repository/docker/danielsmanioto/java-aws <br>
 
 `docker run -d -p 80:8080 -t danielsmanioto/java-aws `
 
+# Instaling CLI and CDK 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html <br>
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html <br>
+
+
+# CI / CD / Travos CI
+
+TravisCI <br>
