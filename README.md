@@ -49,3 +49,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html <br>
 # CI / CD / Travos CI
 
 TravisCI <br>
+
+# Image on dockerhub
+
+https://hub.docker.com/r/danielsmanioto/java-aws
